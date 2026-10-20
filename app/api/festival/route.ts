@@ -37,7 +37,7 @@ export async function GET() {
   if (!pick) return Response.json(null);
   const [, bg, fg] = TONES.find(([re]) => re.test(pick.name)) ?? [0, "#b8430a", "#ffffff"];
   const message = SOLEMN.test(pick.name)
-    ? `Today is ${pick.name}. — AKL Engineers and Contractors`
-    : `Happy ${pick.name}! Warm wishes from AKL Engineers and Contractors.`;
+    ? `Today is ${pick.name}. — Laika Engineers and Contractors`
+    : `Happy ${pick.name}! Warm wishes from Laika Engineers and Contractors.`;
   return Response.json({ name: pick.name, message, bg, fg }, { headers: { "Cache-Control": "public, max-age=1800" } });
 }

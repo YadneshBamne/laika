@@ -4,7 +4,7 @@ Third-party photos, fonts and libraries used by `index.html`.
 
 ## Photos
 
-All photos and certificates on this site belong to AKL Engineers and Contractors. No Unsplash photos are used.
+All photos and certificates on this site belong to Laika Engineers and Contractors. No Unsplash photos are used.
 
 ## Fonts (SIL Open Font License 1.1)
 
